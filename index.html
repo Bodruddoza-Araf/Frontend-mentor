@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+  <title>Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <main class="d-flex">
+    <section class="rounded-5 shadow-lg">
+      <!-- Left side of the section -->
+      <div class="left d-flex flex-column align-items-center">
+        <p class="fs-5 mt-5">Your Result</p>
+        <div class="circle mt-4 rounded-circle d-flex flex-column justify-content-center align-items-center">
+          <p class="text-white fw-bold">76</p>
+          <p class="text-white50">of 100</p>
+        </div>
+        <div class="text-center pb-5">
+          <p class="text-white fw-bold fs-4 mt-4">Great</p>
+          <p class="mt-2 mx-5">Your scored higher than 65% of the people taken these tests.</p>
+        </div>
+      </div>
+      <!-- Right side of the section -->
+      <div class="right fw-bold p-4">
+        <div class="summary_text fs-5">Summary</div>        
+        <div class="reaction mt-3 p-3 rounded-3 d-flex justify-content-between">
+          <div class="d-flex">
+            <img src="assets/images/icon-reaction.svg" alt="">
+            <p class="px-2">Reaction</p>
+          </div>
+          <div class="summary_text d-flex">
+            <p>80</p>
+            <p class="text-secondary">/100</p>
+          </div> 
+        </div>
+        <div class="memory mt-3 p-3 rounded-3 d-flex justify-content-between">
+          <div class="d-flex">
+            <img src="assets/images/icon-memory.svg" alt="">
+            <p class="px-2">Memory</p>
+          </div>
+          <div class="summary_text d-flex">
+            <p>92</p>
+            <p class="text-secondary">/100</p>
+          </div> 
+        </div>
+        <div class="verbal mt-3 p-3 rounded-3 d-flex justify-content-between">
+          <div class="d-flex">
+            <img src="assets/images/icon-verbal.svg" alt="">
+            <p class="px-2">Verbal</p>
+          </div>
+          <div class="summary_text d-flex">
+            <p>61</p>
+            <p class="text-secondary">/100</p>
+          </div> 
+        </div>
+        <div class="visual mt-3 p-3 rounded-3 d-flex justify-content-between">
+          <div class="d-flex">
+            <img src="assets/images/icon-visual.svg" alt="">
+            <p class="px-2">Visual</p>
+          </div>
+          <div class="summary_text d-flex">
+            <p>72</p>
+            <p class="text-secondary">/100</p>
+          </div> 
+        </div>
+        <!-- Button -->
+        <button class="w-100 text-white rounded-pill my-4 py-3">Continue</button>   
+      </div>
+    </section>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Bodruddoza Araf</a>.
+  </footer>
+</body>
+</html>
